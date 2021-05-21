@@ -11,6 +11,7 @@ const checkYuGiOh = (n) => {
 
   if (isNaN(n)) {
     console.log(`invalid parameter: "${n}".`);
+    return `invalid parameter: "${n}".`
   }
 };
 checkYuGiOh("5");
